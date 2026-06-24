@@ -1,23 +1,72 @@
+/* General */
 body {
-    margin: 0 auto;
+    margin: 0;
+    background-color: #111;
+    color: white;
 }
 
-
-/*header*/
-
+/* Header */
 header {
     display: flex;
-    background-color: rgb(7,7,7);
-    margin: 0 auto;
-    width: 100%;
-}
-
-header img {
-    height: 10em;
-    width: 15em;
-}
-
-header section {
-    color: #fff;
     justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7,7,7);
+    padding: 10px 20px;
+}
+
+.logopaciente {
+    width: 80px;
+    height: auto;
+}
+
+/* Título */
+header section {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Redes */
+header section img {
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #222;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contenido */
+main {
+    padding: 20px;
+}
+
+main section {
+    max-width: 600px;
+    margin: auto;
 }

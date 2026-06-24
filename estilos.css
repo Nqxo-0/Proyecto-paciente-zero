@@ -67,6 +67,6 @@ main {
 }
 
 main section {
-    max-width: 600px;
-    margin: auto;
-}
+    background-image: url(assets/espalda\ remera\ paciente.jpg);
+      
+    }

@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(7,7,7);
+    background-color: rgb(7, 7, 7);
     padding: 10px 20px;
 }
 
@@ -68,5 +68,35 @@ main {
 
 main section {
     background-image: url(assets/espalda\ remera\ paciente.jpg);
-      
-    }
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    border: #fff solid;
+}
+
+.proximasfechas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    
+}
+
+main section h3 {
+    font-size: 4em;
+    color: #fff; 
+   
+  
+}
+
+.horario {
+    font-size: 5em;
+    color: rgb(7, 7, 7);
+    background-color: #fff;
+    
+}
+
+div p {
+    display: flex;
+    justify-content: center;
+}

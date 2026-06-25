@@ -34,10 +34,11 @@
 
     <nav>
         <ul>
-            <li><a href="">¿QUE MI#@# ES PACIENTE ZERO?</a></li>
-            <li><a href="integrantes.html">Integrantes</a></li>
-            <li><a href="historia-y-recuerdos.html">Historia y Recuerdos</a></li>
-            <li><a href="letras.html">Letras</a></li>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="quespaciente.html">¿QUE MI#@# ES PACIENTE ZERO?</a></li>
+            <li><a href="integrantes.html">INTEGRANTES</a></li>
+            <li><a href="historia-y-recuerdos.html">HISTORIA Y RECUERDOS</a></li>
+            <li><a href="letras.html">LETRAS</a></li>
 
         </ul>
     </nav>
@@ -47,13 +48,57 @@
             <h3>PROXIMAS FECHAS:</h3>
             <article>
                 <div>
-                    <p class="horario">18/07</p> <p>en el club Pacifico a las 20hs</p>
+                    <p class="horario">18/07</p>
+                    <p>en el club Pacifico a las 20hs</p>
                 </div>
                 <div>
-                    <p class="horario">02/08</p> <p>en el Anden de Cipo</p>
+                    <p class="horario">02/08</p>
+                    <p>en el Anden de Cipo</p>
 
                 </div>
             </article>
+
+
+        </section>
+        <section class="contacto">
+
+            <h3>CONTACTANOS!!!</h3>
+
+            <form action="" method="post">
+
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="telefono">Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono"><br><br>
+
+                <label for="motivo">Motivo del contacto:</label><br>
+                <select id="motivo" name="motivo">
+                    <option value="fecha">Contratar una fecha</option>
+                    <option value="evento">Invitación a evento</option>
+                    <option value="prensa">Prensa / Entrevista</option>
+                    <option value="fan">Mensaje para la banda</option>
+                    <option value="otro">Otro</option>
+                </select><br><br>
+
+                <label for="ciudad">Ciudad:</label><br>
+                <input type="text" id="ciudad" name="ciudad"><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="6" cols="40" required></textarea><br><br>
+
+                <label>
+                    <input type="checkbox" name="acepto" required>
+                    Acepto ser contactado por la banda.
+                </label><br><br>
+
+                <input type="submit" value="Enviar mensaje">
+                <input type="reset" value="Limpiar formulario">
+
+            </form>
 
 
         </section>
@@ -63,7 +108,7 @@
 
 
     <footer>
-        <p>Pagina creada por @nqxo.0/p>
+        <p>Pagina creada por @nqxo.0 </p>
 
     </footer>
 </body>

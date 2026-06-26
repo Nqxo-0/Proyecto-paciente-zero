@@ -1,8 +1,8 @@
 /* General */
 body {
     margin: 0;
-    background-color: #111;
     color: white;
+    background-color: rgb(7, 7, 7);
 }
 
 /* Header */
@@ -44,6 +44,14 @@ nav {
     background-color: #222;
 }
 
+nav a:hover {
+    background-color: red;
+    color: rgb(7, 7, 7);
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px rgb(7, 7, 7) solid;
+}
+
 nav ul {
     margin: 0;
     padding: 10px;
@@ -62,11 +70,11 @@ nav a {
 }
 
 /* Contenido */
-main {
+#inicio {
     padding: 20px;
 }
 
-main section {
+#inicio section {
     background-image: url(assets/espalda\ remera\ paciente.jpg);
     height: 700px;
     background-position: top;
@@ -74,7 +82,7 @@ main section {
     border: #fff solid;
 }
 
-.contacto {
+#inicio .contacto {
     background-image: url(assets/publico\ bari\ 4.jpg);
     height: 1100px;
     background-position: center;
@@ -87,7 +95,7 @@ section form {
     width: 400px;
     height: auto;
     margin: 50px auto;
-    background-color: rgb(7, 7, 7);
+    background-color: rgba(7, 7, 7, 0.67);
     padding: 20px;
     border-radius: 10px;
 }
@@ -96,25 +104,31 @@ input {
     width: 100%;
     padding: 8px;
     margin: 5px 0 15px 0;
-   
+
 }
+
 select {
     width: 100%;
     padding: 8px;
     margin: 5px 0 15px 0;
-    
+
 }
+
 textarea {
     width: 100%;
     padding: 8px;
     margin: 5px 0 15px 0;
-    
+
 }
 
 input[type="submit"] {
     background-color: red;
     color: white;
     border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(60, 8, 8);
 }
 
 
@@ -143,4 +157,56 @@ main section h3 {
 div p {
     display: flex;
     justify-content: center;
+}
+
+#integrantes {
+    width: 1500px;
+    background-image: url(assets/logoblurreado\ de\ paciente.png);
+    background-position: center;
+    background-size: contain;
+
+}
+
+main h3 {
+    background-color: #fff;
+    color: black;
+    font-size: 4em;
+    text-align: center;
+}
+
+#integrantes article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    border-bottom: 3px #fff solid;
+    border-style: dashed;
+}
+
+#integrantes article h4 {
+    font-size: 2em;
+}
+
+#integrantes article p {
+    background-color: rgb(7, 7, 7);
+    font-size: 1.5em;
+}
+
+#integrantes article img {
+    height: 400px;
+    width: auto;
+}
+
+#entrevista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    border-bottom: 3px #fff solid;
+    border-style: dashed;
+    background-image: url(assets/logoblurreado\ de\ paciente.png);
+}
+
+#entrevista video {
+    border: 3px #fff solid;
 }
